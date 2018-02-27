@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests.TestLogin" duration-ms="14393" started-at="2018-02-26T23:41:36Z" finished-at="2018-02-26T23:41:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14393" started-at="2018-02-26T23:41:36Z" finished-at="2018-02-26T23:41:50Z">
+      <class name="tests.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestLogin@38082d64]" name="setUp" is-config="true" duration-ms="15" started-at="2018-02-26T23:41:36Z" finished-at="2018-02-26T23:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestLogin@38082d64]" name="testLogin" duration-ms="8282" started-at="2018-02-26T23:41:36Z" data-provider="excelData" finished-at="2018-02-26T23:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestLogin@38082d64]" name="tearDown" is-config="true" duration-ms="5968" started-at="2018-02-26T23:41:44Z" finished-at="2018-02-26T23:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestLogin -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tests.TestLogin -->
+</testng-results>
